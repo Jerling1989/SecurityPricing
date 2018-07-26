@@ -12710,12 +12710,14 @@ img.img-shadow,
     position: relative;
     padding: 8px 20px;
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: .0625rem;
     font-weight: 500;
     font-size: .75rem;
     color: #9d9d9d;
 }
+
+
 
 .inner-nav .sub-menu li > a > i,
 .inner-nav .sub-menu li > a > span {
@@ -14202,4 +14204,10 @@ body.off-canvas-sidebar-open:after {
 
 .nav-sidebar a:hover {
     color: #505cfd;
+}
+
+#view-all {
+    color: #000 !important;
+    font-weight: bolder;
+    margin-top: 20px;
 }
