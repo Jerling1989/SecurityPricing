@@ -12843,7 +12843,7 @@ img.img-shadow,
     background-position: 50%;
     background-repeat: no-repeat;
     background-color: #fff;
-    background-size: cover;
+    background-size: contain;
     padding: 120px 0 100px;
 }
 
@@ -12934,7 +12934,7 @@ img.img-shadow,
 
 .module-cover {
     position: relative;
-    padding: 240px 0 240px;
+    padding: 200px 0 200px;
 }
 
 .module-cover,
