@@ -14206,7 +14206,7 @@ body.off-canvas-sidebar-open:after {
     color: #505cfd;
 }
 
-#view-all {
+.view-all {
     color: #000 !important;
     font-weight: bolder;
     margin-top: 20px;
