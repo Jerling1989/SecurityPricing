@@ -11997,15 +11997,19 @@ img.img-shadow,
     display: inline-block;
     padding: 10px 0;
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .pricing-price > span {
     position: absolute;
     display: block;
     left: -15px;
-    top: 28px;
+    top: 18px;
     font-size: 1.125rem;
+}
+
+.yearly-rate {
+  margin-top: -15px;
 }
 
 .pricing-body > *:last-child {
