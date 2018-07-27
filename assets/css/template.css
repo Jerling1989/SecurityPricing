@@ -11362,21 +11362,6 @@ img.img-shadow,
     font-size: 2.1875rem;
 }
 
-.more-info {
-  border: 2px solid #257df6;
-  /*height: 250px;*/
-  padding: 20px 10px;
-  margin-bottom: 15px;
-}
-
-#bottom-form {
-  padding-left: 25px;
-}
-
-#bottom-info {
-  padding-right: 25px;
-}
-
 .number-box {
     padding: 20px 0;
 }
@@ -12007,10 +11992,6 @@ img.img-shadow,
 .pricing-popular:hover {
   border-radius: 0 0 .1875rem .1875rem;
 }
-
-/*.pricing-popular .pricing-header, .pricing-popular .pricing-middle {
-  top: -26px;
-}*/
 
 .pricing-header {
     position: relative;
@@ -14229,7 +14210,130 @@ body.off-canvas-sidebar-open:after {
 }
 
 .view-all {
+  color: #000 !important;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.more-info {
+  border: 2px solid #257df6;
+  height: 225px;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+
+#bottom-form {
+  padding-left: 25px;
+}
+
+#bottom-info {
+  padding-right: 25px;
+}
+
+/* PHONES IN PORTRAIT col-3 */
+@media (max-width: 576px) {
+  .more-info {
+    height: 200px;
+  }
+
+  #bottom-form {
+    padding-left: 15px;
+  }
+
+  #bottom-info {
+    padding-right: 15px;
+    margin-bottom: 60px;
+  }
+
+  #most-popular {
+    top: 0px;
+  }
+
+  .view-all {
+    color: #FFF !important;
+    margin-top: 10px;
+  }
+}
+
+/* PHONES IN LANDSCAPE col-sm-3 */
+@media (min-width: 576px) {
+  .more-info {
+    height: 225px;
+  }
+
+  #bottom-form {
+    padding-left: 10px;
+  }
+
+  #bottom-info {
+    padding-right: 10px;
+    margin-bottom: 60px;
+  }
+
+  #most-popular {
+    top: 0px;
+  }
+
+  .view-all {
+    color: #FFF !important;
+    margin-top: 10px;
+  }
+}
+
+/* TABLETS col-md-3 */
+@media (min-width: 768px) {
+  .more-info {
+    height: 225px;
+  }
+
+  #bottom-form {
+    padding-left: 25px;
+  }
+
+  #bottom-info {
+    padding-right: 25px;
+  }
+
+  #most-popular {
+    top: 0px;
+  }
+
+  .view-all {
+    color: #FFF !important;
+    margin-top: 10px;
+  }
+}
+
+/* LAPTOPS  col-lg-3 */
+@media (min-width: 992px) {
+  .more-info {
+    height: 200px;
+  }
+
+  #most-popular {
+    top: -26px;
+  }
+
+  .view-all {
     color: #000 !important;
     font-weight: bolder;
     margin-top: 20px;
+  }
+}
+
+/* DESKTOPS col-xl-3 */
+@media (min-width: 1200px) {
+  .more-info {
+    height: 200px;
+  }
+
+  #most-popular {
+    top: -26px;
+  }
+
+  .view-all {
+    color: #000 !important;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
 }
