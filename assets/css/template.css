@@ -12387,6 +12387,14 @@ img.img-shadow,
     color: #fff;
 }
 
+.header.header-transparent .inner-brand #clear-logo {
+    display: inline-block;
+}
+
+.header.header-transparent .inner-brand #white-logo {
+    display: none;
+}
+
 .header.header-transparent .inner-brand .brand-dark {
     display: none;
 }
@@ -12437,9 +12445,24 @@ img.img-shadow,
     border-bottom: 1px solid rgba(240, 240, 240, .8);
 }
 
+.inner-brand img {
+  width: 120px;
+  height: auto;
+}
+
 .header .inner-brand,
 .header.header-small .inner-brand {
     color: #222;
+}
+
+.header .inner-brand,
+.header.header-small .inner-brand #clear-logo {
+  display: none;
+}
+
+.header .inner-brand,
+.header.header-small .inner-brand #white-logo {
+  display: inline-block;
 }
 
 .header .inner-brand .brand-dark,
