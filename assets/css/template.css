@@ -12455,12 +12455,12 @@ img.img-shadow,
     color: #222;
 }
 
-.header .inner-brand,
+.header .inner-brand #clear-logo,
 .header.header-small .inner-brand #clear-logo {
   display: none;
 }
 
-.header .inner-brand,
+.header .inner-brand #white-logo,
 .header.header-small .inner-brand #white-logo {
   display: inline-block;
 }
@@ -12511,6 +12511,11 @@ img.img-shadow,
     .inner-navigation.collapse {
         display: block;
     }
+
+   /* .header .inner-brand #white-logo,
+    .header.header-small .inner-brand #white-logo {
+      display: inline-block;
+    }*/
 }
 
 @media (max-width: 991.98px) {
@@ -12529,6 +12534,13 @@ img.img-shadow,
     .header.header-small .inner-brand,
     .header.header-transparent .inner-brand {
         color: #222;
+    }
+
+    .header .inner-brand #white-logo,
+    .header.header-small .inner-brand #white-logo
+    .header.header-transparent .inner-brand #white-logo {
+      display: inline-block !important;
+      float: left;
     }
 
     .header .inner-brand .brand-dark,
