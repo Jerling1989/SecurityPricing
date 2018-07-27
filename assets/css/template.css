@@ -11369,6 +11369,14 @@ img.img-shadow,
   margin-bottom: 15px;
 }
 
+#bottom-form {
+  padding-left: 25px;
+}
+
+#bottom-info {
+  padding-right: 25px;
+}
+
 .number-box {
     padding: 20px 0;
 }
