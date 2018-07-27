@@ -11362,6 +11362,13 @@ img.img-shadow,
     font-size: 2.1875rem;
 }
 
+.more-info {
+  border: 2px solid #257df6;
+  /*height: 250px;*/
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+
 .number-box {
     padding: 20px 0;
 }
