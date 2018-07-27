@@ -2,6 +2,8 @@
 
 This is a project created as a development test for Avanan. This is a mock-up pricing page for their services. It is built with HTML, CSS, jQuery, and Bootstrap. Below is a bulleted list of some of the reasons I chose to make certain design choices.
 
+Here is a youtube video covering the topics in this document: https://www.youtube.com/watch?v=avnEs8UoEsg
+
 --- 
 
 - Have a large image upon first page load: I decided to do this when I took a look at a lot of the other pricing pages for successful companies on the web. Have a large image with some copy over it seems to be a popular and modern style right now.
