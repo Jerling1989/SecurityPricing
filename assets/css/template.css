@@ -11976,12 +11976,18 @@ img.img-shadow,
     position: relative;
     border-bottom: 1px solid #f0f0f0;
     padding: 30px 0;
+    height: 215px;
+}
+
+.pricing-header p {
+  font-size: 0.75rem;
+  margin-top: 5px;
 }
 
 .pricing-title {
     text-transform: uppercase;
     letter-spacing: .0625rem;
-    font-size: .6875rem;
+    font-size: 1.25rem;
     margin: 0;
 }
 
@@ -12016,8 +12022,8 @@ img.img-shadow,
     margin-bottom: 0;
 }
 
-.pricing-footer {
-    padding: 34px 0 45px;
+.pricing-buttons {
+    padding: 0px 0 15px;
 }
 
 .pricing-wrapper .pricing-title,
