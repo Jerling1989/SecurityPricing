@@ -372,10 +372,12 @@
 
             <div class="col-sm-4">
               <div class="icon-box more-info text-center">
-                <div class="icon-box-icon"><span class="ti-headphone-alt"></span></div>
-                <div class="icon-box-title">
-                  <h6>Call</h6>
-                </div>
+                <a>
+                  <div class="icon-box-icon"><span class="ti-headphone-alt"></span></div>
+                  <div class="icon-box-title">
+                    <h6>Call</h6>
+                  </div>
+                </a>
                 <div class="icon-box-content">
                   <p>Talk to a human. We're always here to help.</p>
                 </div>
@@ -384,10 +386,12 @@
 
             <div class="col-sm-4">
               <div class="icon-box more-info text-center">
-                <div class="icon-box-icon"><span class="ti-comments"></span></div>
-                <div class="icon-box-title">
-                  <h6>Chat</h6>
-                </div>
+                <a>
+                  <div class="icon-box-icon"><span class="ti-comments"></span></div>
+                  <div class="icon-box-title">
+                    <h6>Chat</h6>
+                  </div>
+                </a>
                 <div class="icon-box-content">
                   <p>Have a chat right here on our website.</p>
                 </div>
@@ -398,11 +402,10 @@
               <div class="icon-box more-info text-center">
                 <a class="off-canvas-open" href="#">
                   <div class="icon-box-icon"><span class="ti-help-alt"></span></div>
+                  <div class="icon-box-title">
+                    <h6>FAQ</h6>
+                  </div>
                 </a>
-                
-                <div class="icon-box-title">
-                  <h6>FAQ</h6>
-                </div>
                 <div class="icon-box-content">
                   <p>Browse our Frequently Asked Questions.</p>
                 </div>
@@ -411,7 +414,6 @@
           </div>
 
 
-          
         </div>
       </section>
       <!-- Testimonials end-->
@@ -541,32 +543,82 @@
         <div class="off-canvas-content">
           <!-- Text widget-->
           <aside class="widget widget-text">
-            <div class="textwidget">
-              <p class="text-center"><img src="assets/images/logo-light-2.png" alt="" width="80px"></p>
-              <p class="text-center">See how users experience your website in realtime to see changes.</p>
+            <div class="textwidget text-center">
+              <h1>FAQ</h1>
+              <p>Frequently Asked Questions</p>
             </div>
           </aside>
           <!-- Recent portfolio widget-->
-          <aside class="widget widget-recent-works">
-            <ul>
-              <li><a href="#"><img src="assets/images/widgets/1.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/2.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/3.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/4.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/5.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/6.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/7.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/8.jpg" alt=""></a></li>
-              <li><a href="#"><img src="assets/images/widgets/9.jpg" alt=""></a></li>
-            </ul>
-          </aside>
-          <!-- Social Icons-->
-          <ul class="social-icons text-center">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-          </ul>
+          <div class="accordion accordion-light" id="accordion1">
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a  class="accordion-link collapsed" data-toggle="collapse" href="#collapse-1" class="" aria-expanded="false">Can I add more security later?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-1" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>Of course! You can add more layers of security from within the Avanan app with a single click!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a class="accordion-link collapsed" data-toggle="collapse" href="#collapse-2" aria-expanded="false">Which SaaS can I secure?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-2" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>Avanan's security will extend to all your cloud applications, from email to file sharing to cloud infrastructure and beyond! See them all on our Any SaaS page.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a  class="accordion-link collapsed" data-toggle="collapse" href="#collapse-3" class="" aria-expanded="false">Can I secure more SaaS later?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-3" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>Of course! You can add new SaaS from within the Avanan app and your security will automatically extend to the new application with no need for configuration.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a class="accordion-link collapsed" data-toggle="collapse" href="#collapse-4" aria-expanded="false">Does Avanan meet my industry's compliance regulations?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-4" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>We sure do! Whether you're in healthcare, finance, or the public sector, Avanan has got you covered!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a  class="accordion-link collapsed" data-toggle="collapse" href="#collapse-5" class="" aria-expanded="false">What do I need to install/setup to get started?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-5" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>Avanan doesn't require an MTA, proxy, or agent. That means there is nothing for you or your end users to install once launching the app. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <h6><a class="accordion-link collapsed" data-toggle="collapse" href="#collapse-6" aria-expanded="false">Does Avanan store all our data in the cloud?</a></h6>
+              </div>
+              <div class="collapse" id="collapse-6" data-parent="#accordion1">
+                <div class="accordion-item-body">
+                  <p>Avanan stores only metadata about each file's security status in an encrypted format. Your files and and email remain within your SaaS account.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
         </div>
       </div>
     </div>
