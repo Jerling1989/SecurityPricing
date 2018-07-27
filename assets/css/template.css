@@ -197,6 +197,7 @@ a {
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    cursor: pointer;
 }
 
 a:hover {
@@ -11951,6 +11952,18 @@ img.img-shadow,
     transition: .3s ease-in-out;
 }
 
+#most-popular {
+  position: absolute;
+  margin-right: -51px;
+  margin-left: -51px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 100.75%;
+  height: 25px;
+  top: -26px;
+  border-radius:.1875rem .1875rem 0 0;
+}
+
 .pricing-wrapper + .pricing-wrapper {
     border-left-color: transparent;
 }
@@ -11971,6 +11984,14 @@ img.img-shadow,
             transform: scale(1.02);
     z-index: 1;
 }
+
+.pricing-popular:hover {
+  border-radius: 0 0 .1875rem .1875rem;
+}
+
+/*.pricing-popular .pricing-header, .pricing-popular .pricing-middle {
+  top: -26px;
+}*/
 
 .pricing-header {
     position: relative;
@@ -12024,6 +12045,12 @@ img.img-shadow,
 
 .pricing-buttons {
     padding: 0px 0 15px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.pricing-buttons .btn {
+  margin-bottom: 10px;
 }
 
 
@@ -12036,49 +12063,14 @@ img.img-shadow,
     color: #788487;
 }
 
-.pie-chart {
-    position: relative;
-    text-align: center;
-    padding: 40px 0;
+#edu-pricing {
+  color: #788487;
+  font-size: 1.15rem;
+  text-decoration: underline;
 }
 
-.pie-chart .chart {
-    position: relative;
-    display: block;
-    height: 150px;
-    width: 150px;
-    margin: 0 auto 28px;
-    text-align: center;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .07);
-    border-radius: 50%;
-}
-
-.pie-chart .chart > canvas {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100% !important;
-    width: 100% !important;
-}
-
-.pie-chart .chart-text {
-    position: relative;
-    vertical-align: middle;
-    display: inline-block;
-    line-height: 150px;
-}
-
-.pie-chart .chart-text span {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 100%;
-    width: 54px;
-    height: 54px;
-    line-height: 54px;
-    font-size: 20px;
-    background-color: #313131;
-    color: #fff;
+#edu-pricing:hover {
+  color: #bdc3c7;
 }
 
 .feature .feature-thumb {
