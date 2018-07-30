@@ -14290,7 +14290,7 @@ body.off-canvas-sidebar-open:after {
   }
 
   .off-canvas-sidebar-wrapper {
-    padding-left: 15px;
+    padding-right: -15px;
   }
 }
 
