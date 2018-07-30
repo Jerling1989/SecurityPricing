@@ -14288,6 +14288,10 @@ body.off-canvas-sidebar-open:after {
     color: #FFF !important;
     margin-top: 10px;
   }
+
+  .off-canvas-sidebar-wrapper {
+    padding-left: 15px;
+  }
 }
 
 /* PHONES IN LANDSCAPE col-sm-3 */
